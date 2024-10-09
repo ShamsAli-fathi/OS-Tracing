@@ -101,7 +101,11 @@ The **Control Flow** view is a LTTng-specific view that shows per-process events
 
 #### Now do it yourself!
 
-- A simple C program is provided <!--- here --->. Compile the program and run/trace it using _strace_; Explain all the system calls that are made. Run it for a second time `-f` flag and see how different the output is.
+https://github.com/ShamsAli-fathi/OS-Tracing/blob/main/Lab%201/src/simple_program.c
+
+- A simple C program is provided 
+[Here](https://github.com/ShamsAli-fathi/OS-Tracing/blob/main/Lab%201/src/simple_program.c)
+. Compile the program and run/trace it using _strace_; Explain all the system calls that are made. Run it for a second time `-f` flag and see how different the output is.
 
 - **stress-ng** is a tool used to stress-test various system resources (CPU, memory, I/O, etc.) to evaluate system performance or stability under load. One of the tests include matrix multiplication. The goal is to engage a few number of your cores with matrix multiplication and trace the load. For events, include **sched_switch** and all **sched_wak*** events, **interrupts**, **sched_process_fork** and **sched_process_exit**. For contexts, include **Virtual process ID**, **Virutal Thread ID**, **Process Name** and **Priority**. Explain how the scheduler works, observe state transitions and identify patterns.
 
