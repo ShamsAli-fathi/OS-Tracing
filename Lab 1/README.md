@@ -1,6 +1,6 @@
 # Description
 
-This lab will involve two main tasks: first, we will analyze system call behavior using **strace**, and second, we will trace the scheduler and CPU threads using **LTTng**.
+This lab will involve two main tasks: first, we will analyze system call behavior using **strace**, and second, we will trace the scheduler and CPU threads using **LTTng** and **TraceCompass**.
 
 In the [last section of this Lab](#Assignment), an assignment is also provided.
 
