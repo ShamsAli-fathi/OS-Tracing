@@ -14,7 +14,7 @@
   </p>
 </div>
 
-[1. Lab 1](https://github.com/ShamsAli-fathi/OS-Tracing/tree/main/Tutorials) <br />
+[1. Lab 1](https://github.com/ShamsAli-fathi/OS-Tracing/tree/main/Lab%201) <br />
 <!-- [2. Labs ](https://github.com/ShamsAli-fathi/OS-Tracing/tree/main/Labs) <br /> -->
 
 ### Description
