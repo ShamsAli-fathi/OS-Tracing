@@ -38,7 +38,7 @@ The output shows all the system calls made after the execution of the program. B
 
 The following is an example of tracing ping:
 
-<!-- ![Ping Strace]() -->
+![Ping Trace](https://github.com/ShamsAli-fathi/OS-Tracing/blob/main/Lab%201/src/pingstrace.png)
 
 ## Tracing a Multi-thread process
 
@@ -85,11 +85,11 @@ After finalizing the tracing session, a folder is created which contains **Chann
 
 The next step is to attach this folder to tracing compass. After creating a tracing project, _Right Click_ -> _Tracing_ -> _Trace Import_, and browse for the folder created by LTTng.
 
-<!--- tracecompass1 --->
+![TraceCompass 1](https://github.com/ShamsAli-fathi/OS-Tracing/blob/main/Lab%201/src/tracecompass1.png)
 
 Next, open your project and double click on experiments to view the trace.
 
-<!--- tracecompass2 --->
+![TraceCompass 2](https://github.com/ShamsAli-fathi/OS-Tracing/blob/main/Lab%201/src/tracecompass2.png)
 
 The **Control Flow** view is a LTTng-specific view that shows per-process events graphically. The Linux Kernel Analysis is executed the first time a LTTng Kernel is opened. After opening the trace, the element Control Flow is added under the Linux Kernel Analysis tree element in the Project Explorer. To open the view, double-click the Control Flow tree element. 
 
