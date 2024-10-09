@@ -101,8 +101,6 @@ The **Control Flow** view is a LTTng-specific view that shows per-process events
 
 #### Now do it yourself!
 
-https://github.com/ShamsAli-fathi/OS-Tracing/blob/main/Lab%201/src/simple_program.c
-
 - A simple C program is provided 
 [Here](https://github.com/ShamsAli-fathi/OS-Tracing/blob/main/Lab%201/src/simple_program.c)
 . Compile the program and run/trace it using _strace_; Explain all the system calls that are made. Run it for a second time `-f` flag and see how different the output is.
