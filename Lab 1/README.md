@@ -95,7 +95,7 @@ The **Control Flow** view is a LTTng-specific view that shows per-process events
 
 **Resources View** is specific to LTTng kernel traces. The Linux Kernel Analysis is executed the first time a LTTng Kernel is opened. After opening the trace, the element Resources is added under the Linux Kernel Analysis tree element of the Project Explorer. To open the view, double-click the Resources tree element. This view shows the state of system resources i.e. if changes occurred during the trace either on CPUs, IRQs or soft IRQs, it will appear in this view. The left side of the view present a list of resources that are affected by at least one event of the trace. The right side illustrate the state in which each resource is at some point in time. For state USERMODE it also prints the process name in the state bar. For state SYSCALL the name of the system call is displayed in the state region. 
 
-### The full guide is available [Here](https://archive.eclipse.org/tracecompass/doc/stable/org.eclipse.tracecompass.doc.user/Trace-Compass-Main-Features.html) and [Here](https://archive.eclipse.org/tracecompass/doc/stable/org.eclipse.tracecompass.doc.user/LTTng-Kernel-Analysis.html)
+### The full guide is available [Here](https://www.youtube.com/@deeplinux2248) and [Here](https://archive.eclipse.org/tracecompass/doc/stable/org.eclipse.tracecompass.doc.user/Trace-Compass-Main-Features.html) and [Here](https://archive.eclipse.org/tracecompass/doc/stable/org.eclipse.tracecompass.doc.user/LTTng-Kernel-Analysis.html)
 
 ## Assignment
 
