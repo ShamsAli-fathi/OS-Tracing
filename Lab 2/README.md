@@ -47,6 +47,7 @@ sudo perf record -ae 'sched:*' --call-graph fp
 The result is:
 
 <!-- perf example -->
+![perf](https://github.com/ShamsAli-fathi/OS-Tracing/blob/main/Lab%202/src/perf-record-example.png)
 
 But most of the times, we are not sure where to actually look into! Maybe we want to see what events are specifically raised when we do a certain action or run a certain program. In such situations, it's better to use the _stat_ feature. By assigning a timer to _stat_ command, we can see the number of events being raised in these intervals:
 
@@ -56,6 +57,7 @@ sudo perf stat -ae 'sched:*' -I 1000
 - If you want to record a program, append the program's directory at the end.
 
 <!--perf stat gif-->
+![perf stat](https://github.com/ShamsAli-fathi/Linux-Kernel-Tracing/blob/main/Kernel%20Net%20Tracing/src/Perf%20idle.gif)
 
 There are lots of other features such as probes that you can use for more practical scenarios.
 
@@ -104,6 +106,7 @@ echo 1 > tracing_on
 
 Hence the result:
 
+![ftrace](https://github.com/ShamsAli-fathi/OS-Tracing/blob/main/Lab%202/src/ftrace_example.png)
 <!--ftrace-->
 
 - To reset the trace report, `echo nop > current_tracer` each time.
