@@ -115,7 +115,7 @@ Hence the result:
 #### Now do it yourself!
 
 - A compiled program is provided 
-[Here](https://github.com/ShamsAli-fathi/OS-Tracing/blob/main/Lab%201/src/simple_program.c).
+[Here](https://github.com/deep-observability-lab/OS-Tracing/tree/main/Lab%202/src).
     - Find what events are being raised by the program.
     - Based on what you found out, record the appropriate events using _perf_.
     - Find a function called **do_mmap**. Explain the whole stack it is located in and what it is actually doing.
