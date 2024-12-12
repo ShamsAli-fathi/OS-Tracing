@@ -61,6 +61,8 @@ sudo perf stat -ae 'sched:*' -I 1000
 
 There are lots of other features such as probes that you can use for more practical scenarios.
 
+Afterwards, by using `perf script`, you can easily observe the stack of instructions.
+
 ## ftrace
 
 Ftrace is a tracing framework embedded within the Linux kernel. It provides a comprehensive view of the kernel's inner workings, enabling developers and system administrators to analyze performance bottlenecks, identify system issues, and gain insights into kernel behavior. We can records the entry and exit points of kernel functions and track the call stack, allowing for detailed analysis of function call sequences.
