@@ -44,6 +44,7 @@ sudo perf record -ae 'sched:*' --call-graph fp
 - Remember to exit and stop the record. It takes a lot of space if you let it keep going.
 - If you want to record a program, append the program's directory at the end.
 
+Afterwards, by using `perf script`, you can easily observe the stack of instructions.
 The result is:
 
 <!-- perf example -->
@@ -61,7 +62,6 @@ sudo perf stat -ae 'sched:*' -I 1000
 
 There are lots of other features such as probes that you can use for more practical scenarios.
 
-Afterwards, by using `perf script`, you can easily observe the stack of instructions.
 
 ## ftrace
 
