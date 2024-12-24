@@ -118,7 +118,7 @@ Hence the result:
 
 - A compiled program is provided 
 [Here](https://github.com/deep-observability-lab/OS-Tracing/tree/main/Lab%202/src).
-    - Find what events are being raised by the program; look into `net:netif*,syscalls:sys_enter_mmap,syscalls:sys_exit_mmap,tcp:*,i2c:*` events.
+    - Find what events are being raised by the program; look into `kmem:*,net:netif*,syscalls:sys_enter_mmap,syscalls:sys_exit_mmap,tcp:*,i2c:*` events.
     - Based on what you found out, record the appropriate events using _perf_.
     - Find a function called **do_mmap**. Explain the whole stack it is located in and what it is actually doing.
     - Using _ftrace_, **enable the same events** you found out and trace the program, find the nested functions of `do_mmap` and verify how mapping works.

@@ -15,7 +15,7 @@
 </div>
 
 [1. Lab 1](https://github.com/ShamsAli-fathi/OS-Tracing/tree/main/Lab%201) <br />
-<!-- [2. Labs ](https://github.com/ShamsAli-fathi/OS-Tracing/tree/main/Labs) <br /> -->
+[2. Labs ](https://github.com/ShamsAli-fathi/OS-Tracing/tree/main/Lab%202) <br />
 
 ### Description
 In this repo, we provide different labs and related tutorials regarding OS tracing.
