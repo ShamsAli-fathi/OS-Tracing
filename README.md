@@ -16,6 +16,7 @@
 
 [1. Lab 1](https://github.com/ShamsAli-fathi/OS-Tracing/tree/main/Lab%201) <br />
 [2. Lab 2](https://github.com/ShamsAli-fathi/OS-Tracing/tree/main/Lab%202) <br />
+[3. Lab 3](https://github.com/ShamsAli-fathi/OS-Tracing/tree/main/Lab%203) <br />
 
 ### Description
 In this repo, we provide different labs and related tutorials regarding OS tracing.
