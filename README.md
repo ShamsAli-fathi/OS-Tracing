@@ -10,7 +10,7 @@
   <p align="center">
     A repo dedicated to tutorials and labs
     <br />
-    <a href="linkedin.com/in/ali-fathi-vafegh-84bb0a274/">My Linkedin</a>
+    <a href="https://linkedin.com/in/ali-fathi-vafegh-84bb0a274/">My Linkedin</a>
   </p>
 </div>
 
